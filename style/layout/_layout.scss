@@ -1,0 +1,190 @@
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: $cream;
+
+    @media(min-width: $breakpoint-desktop-min) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+body {
+    padding: 16px;
+}
+
+.card {
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #fff;
+
+    @media(min-width: $breakpoint-desktop-min) {
+        width: 600px;
+        display: flex;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    &__side {
+        // flex: 1;
+
+        @media(min-width: $breakpoint-desktop-min) {
+            flex-basis: 50%;
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        img {
+
+            width: 100%;
+            height: auto;
+            display: block;
+
+            @media(min-width: $breakpoint-desktop-min) {
+                border-radius: 10px 0 0 10px;
+            }
+
+            @media(max-width:$breakpoint-mobile-max) {
+                border-radius: 10px 10px 0 0;
+            }
+
+        }
+
+        &--right {
+
+            @media(min-width: $breakpoint-desktop-min) {
+                padding: 32px;
+            }
+
+            @media(max-width:$breakpoint-mobile-max) {
+                padding: 24px;
+            }
+        }
+
+    }
+
+    &__preTitle {
+        font-family: $monserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 5px;
+        color: $aurometalSaurus;
+    }
+
+    &__h1 {
+        font-family: $fraunces;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        color: $Gunmetal;
+        margin-top: 20px;
+
+        @media(min-width: $breakpoint-desktop-min) {
+            margin-top: 20px;
+        }
+
+        @media(max-width:$breakpoint-mobile-max) {
+            margin-top: 12px;
+        }
+    }
+
+    &__p {
+        font-family: $monserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 23px;
+        color: $aurometalSaurus;
+
+        @media(min-width: $breakpoint-desktop-min) {
+            margin-top: 24px;
+        }
+
+        @media(max-width:$breakpoint-mobile-max) {
+            margin-top: 16px;
+        }
+    }
+
+    &__prices {
+
+        display: flex;
+        align-items: center;
+
+        @media(min-width: $breakpoint-desktop-min) {
+            margin-top: 29px;
+        }
+
+        @media(max-width:$breakpoint-mobile-max) {
+            margin-top: 24px;
+        }
+
+        &__new {
+            font-family: $fraunces;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            color: $deepAquamarine;
+        }
+
+        &__old {
+            font-family: $monserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 23px;
+            text-decoration-line: line-through;
+            color: $aurometalSaurus;
+            margin-left: 20px;
+        }
+    }
+
+    &__cta {
+
+        font-family: $monserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: $pureWhite;
+        background: $deepAquamarine;
+        border-radius: 8px;
+        height: 48px;
+        text-decoration: none;
+        transition: all .3s;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media(min-width: $breakpoint-desktop-min) {
+            margin-top: 30px;
+        }
+
+        @media(max-width:$breakpoint-mobile-max) {
+            margin-top: 20px;
+        }
+
+        &__icon {
+            width: 14px;
+        }
+
+        &__txt {
+            margin-left: 12px;
+        }
+
+        &:hover {
+            background-color: $deepAquamarineHover;
+        }
+
+    }
+
+}
