@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/antoru/products-preview-card-component)
-- Live Site URL: [Add live site URL here](https://rad-dolphin-c07267.netlify.app/)
+- Solution URL: [Click here](https://github.com/antoru/products-preview-card-component)
+- Live Site URL: [Click here](https://rad-dolphin-c07267.netlify.app/)
 
 ## My process
 
