@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Go to live page](https://rad-dolphin-c07267.netlify.app/)
+- Live Site URL: [Go to live page](https://antoru-preview-card-component.netlify.app/)
 
 ## My process
 
